@@ -1,0 +1,72 @@
+//DIFERENÇA ENTRE KOTLIN E JAVA
+
+//KOTLIN
+
+package com.example.myapplication
+//Tools que une a SDK ao APK.
+import androidx.appcompat.app.AppCompatActivity
+//buffer do SDK
+import android.os.Bundle
+//metodo do APK
+
+ //fun main(){}// class MainActivity : AppCompatActivity// Declaração kotlin
+ //fun main(String ou [[objeto : declaração]argumento]){função(método)}// 
+
+class MainActivity : AppCompatActivity() {
+    //declaração da variável que vai referenciar o arquivo de layout da MainActivity (formato compacto)
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        //infla o layout da MainActivity na variável Bundle
+               Bundle = ActivityMainBundle.inflate(layoutInflater)
+               //define o layout da tela com base no arquivo de layout definido em Bundle
+        setContentView(R.Id.Bundle)
+        //chama o método que inicializa o Bundle
+}
+    }
+    //O KOTLIN ESTÁ PRONTO PRA RECEBER AS FUNÇÕES XML, SEJA BUTTOM, SEJA TEXT, SEJA IMAGEVIEW.
+
+    //JAVA
+
+    public class Main
+{
+  public static void main(String[]args){
+    System.out.println("Hello, world!") 
+  }
+}
+
+    //Observe que o JAVA roda em C, e o Kotlin opera uma função em base de C++.
+    Lembrando que na teoria de programação, tipicamente tudo é C, por que C é JAVA,
+    mas lógicamente não porque JAVA apesar de ser em C, possue recursos C#,
+    mas sua linguagem lógica operacional tem algumas diferenças.
+    Com base na TEORIA DE PROGRAMAÇÃO, Kotlin [
+    
+    fun main(){
+    }
+  print()
+}
+
+/////////////////////////////////////////////////////////////
+
+class MainActivity : AppCompatActivity() {
+        super.onCreate(savedInstanceState)
+        setContentView(R.Id.Bundle)
+}
+
+    ]
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//JAVA//
+
+public class Main
+ //declaração da variável
+{
+  public static void main(String[]args){
+  //Metodo(função por argumento)
+    System.out.println("X") 
+    //execução de sistema String=X
+  }
+}
+
+    
+    
