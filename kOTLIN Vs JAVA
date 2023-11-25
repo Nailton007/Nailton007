@@ -25,15 +25,19 @@ class MainActivity : AppCompatActivity() {
     }
     //O KOTLIN ESTÁ PRONTO PRA RECEBER AS FUNÇÕES XML, SEJA BUTTOM, SEJA TEXT, SEJA IMAGEVIEW.
 
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
     //JAVA
 
-    public class Main
+   public class Main
+ //declaração da variável
 {
   public static void main(String[]args){
-    System.out.println("Hello, world!") 
+  //Metodo(função por argumento)
+    System.out.println("X") 
+    //execução de sistema String=X
   }
 }
-
     //Observe que o JAVA roda em C, e o Kotlin opera uma função em base de C++.
     Lembrando que na teoria de programação, tipicamente tudo é C, por que C é JAVA,
     mas lógicamente não porque JAVA apesar de ser em C, possue recursos C#,
@@ -56,17 +60,6 @@ class MainActivity : AppCompatActivity() {
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-//JAVA//
-
-public class Main
- //declaração da variável
-{
-  public static void main(String[]args){
-  //Metodo(função por argumento)
-    System.out.println("X") 
-    //execução de sistema String=X
-  }
-}
 
     
     
